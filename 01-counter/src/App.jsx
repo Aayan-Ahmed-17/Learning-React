@@ -1,7 +1,6 @@
 import { useState } from "react";
 
 function App() {
-  console.log("hello");
   let [num, setNum] = useState(0)
 
   function addCounter(){
